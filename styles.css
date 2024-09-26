@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(155, 111, 187);
+}
+
+body{
+    padding: 20px;
+    text-align: ce;
+    color:rgb(231, 198, 255);
+}
+
+header{
+    text-align: center;
+    padding: 1em;
+    font-family: fantasy;
+    font-size: xx-large;
+    background-color: rgb(77, 74, 235);
+    color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    padding: 2px;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+/* no entendi por qué no funciono :( */
+input [type="submit"]:hover{background-color: darkmagenta;}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(130, 129, 216, 0.863);
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+}

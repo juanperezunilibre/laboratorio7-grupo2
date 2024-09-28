@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria de Tecnologia</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    
+    <form action="" method="post">
+    <h1>Feria de Tecnologia</h1>
+
+    <!--Campo nombre, tipo text-->
+    <label for="name">Nombre:</label>
+    <input type="text" placeholder="Ejemplo: Juana" name="name" id="name"/>
+
+    <!--Campo email, tipo email-->
+
+    <label for="email">Correo electronico:</label>
+    <input type="email" placeholder="Ejemplo: juana12@gmail.com" name="email"/>
+
+    <!--Campo telefono, tipo texto-->
+
+    <label for="phone">Telefono:</label>
+    <input type="text" placeholder="Ejemplo: 31634567" name="phone" id="phone" maxlength="10"/>
+
+    <!--Campo edad, tipo select-->
+
+    <label for="age">Edad:</label>
+    <select name="age" id="age" required>
+        <option>Selecione un rango de edad</option>
+        <option value 18-24>18-24</option>
+        <option value 25-34>25-34</option>
+        <option value 35-44>35-44</option>
+        <option value 45-54>45-54</option>
+        <option value 55-64>55-64</option>
+        <option value 65+>65</option>
+       </select>
+
+       <fieldset class="option">
+        <legend>¿Cuales son tus intereses?</legend>
+        
+        <label for="software">desarrollo de software</label>
+        <input type="checkbox" id="software" name="interests"> 
+        <data value="software"></data>
+
+       
+       <label for="ai"> Inteligencia artificial</label>
+        <input type="checkbox" id="ai" name="interests">
+        <data value="ai"></data>
+       
+       </label>
+
+       <label for="robotica"> Robotica</label>
+        <input type="checkbox" id="robotica" name="interests">
+        <data value="Robotica"></data>
+    </fieldset>
+
+    
+       <label for="comments">Comentarios</label>
+       <textarea name="comments" id="comments"></textarea>
+
+       <label for="t&c">
+        <input type="checkbox" id="t&c" required>
+        Acepto terminos y condiciones
+       </label>
+      
+
+       <button>Enviar</button>
+      </form>
+
+    </body>
+    
+</body>
+</html>
